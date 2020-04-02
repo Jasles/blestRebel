@@ -1,1 +1,1 @@
-web: gunicorn pj4.wsgi --log-file -
+web: gunicorn pj4_django.wsgi --log-file -
