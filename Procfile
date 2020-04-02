@@ -1,0 +1,1 @@
+web: gunicorn pj4.wsgi --log-file -
