@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'pj4',
     'django_extensions',
-    'pj4_app'
+    
 ]
 
 MIDDLEWARE = [
