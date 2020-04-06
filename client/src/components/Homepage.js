@@ -12,6 +12,7 @@ class Homepage extends Component {
         global:null,
 
     }
+    
     getGlobal = () => {
         axios.get('https://api.covid19api.com/summary').then((response) => {
             const foundGlobal = response.data;
@@ -35,9 +36,7 @@ class Homepage extends Component {
                 <div>
                           
                 <h1>Global Recovered</h1>
-                <button onClick={ () => { this.getGlobal() } }>
-                    recovered
-                </button>
+             
                 { this.state.global
                     ? <Global global={ this.state.global }/>
                     : null

@@ -19,7 +19,7 @@ class App extends Component {
 
                   <div>
                       <h1>BLEStREBEL</h1>
-                      < section  img src={Logo} />
+                      <img src={Logo} className="logo"/>
                       
                      
                   </div>
