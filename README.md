@@ -4,11 +4,9 @@ Trello
 [https://trello.com/b/S4XuX0PA/blestrebel]
 
 
-Wireframe
-[https://www.lucidchart.com/invitations/accept/7e6cd386-fd16-43b8-86f7-4fc6fc901731]
+![WIREFRAME](wireframe.png)
 
-ERG
-[https://www.lucidchart.com/invitations/accept/9aeae569-9679-4598-a4e8-818b13cd2ee3]
+![ERG](ERG.PNG)
 
 HEROKU
 [https://blestrebel.herokuapp.com/]
