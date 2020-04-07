@@ -10,7 +10,7 @@ class Requests extends Component {
             email: '',
             need: '',
         },
-
+        thankyou:null,
         
   
     }
@@ -32,14 +32,14 @@ class Requests extends Component {
     render() {
         
         return (
-            
+
             <div>
                  <form onSubmit={ this.submitCreateForm }>
-                            <input type="text" name="name" value ={this.state.name} onChange={ this.changeInput }/>
-                            <input type="text" name="email" value ={this.state.email} onChange={ this.changeInput }/>
-                            <input type="text" name="phone_number" value={this.state.phone_number} onChange={ this.changeInput }/>
-                            <input type="text" name="need" value= {this.state.need} onChange={ this.changeInput }/>
-                            <input type="submit" value="Create"/>
+                           <p>Name</p> <input type="text" name="name" value ={this.state.name} onChange={ this.changeInput } className="box"/>
+                           <p>Email</p> <input type="text" name="email" value ={this.state.email} onChange={ this.changeInput }className="box"/>
+                            <p>Phone Number</p><input type="text" name="phone_number" value={this.state.phone_number} onChange={ this.changeInput }className="box"/>
+                            <p>Please explain your need.</p><input type="text" name="need" value= {this.state.need} onChange={ this.changeInput }className="largebox"/>
+                            <div><input type="submit" value="Create"/></div>
                           </form>
                 
             </div>

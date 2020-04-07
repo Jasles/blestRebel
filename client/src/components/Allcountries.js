@@ -1,33 +1,28 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import TeamMembers from './TeamMember';
-import Requests from './Requests';
 import '../App.css';
 import axios from 'axios';
-import Global from './Global';
-import Allcounties from './Allcountries';
 
 
-class Homepage extends Component {
+class Allcountries extends Component {
     state = {
-        global:null,
+        country:null,
 
     }
 
-    getGlobal = () => {
-        axios.get('https://api.covid19api.com/summary').then((response) => {
-            const foundGlobal = response.data;
+    getCountry = () => {
+        axios.get('https://api.covid19api.com/country/south-africa/status/confirmed').then((response) => {
+            const foundCountry = response.data;
             this.setState({
-                global: foundGlobal,
+                country: foundCountry,
                
-     
             });
         });
     }
 
 
     componentDidMount(){
-        this.getGlobal();
+        this.getAllcountries();
     }
 
     
@@ -38,8 +33,8 @@ class Homepage extends Component {
                           
                 <h1>Global Recovered</h1>
              
-                { this.state.global
-                    ? <Global global={ this.state.global }/>
+                { this.state.Allcountries
+                    ? <Allcountries country={ this.state.Allcountries.country.spain }/>
                     : null
                 }
   
@@ -53,4 +48,4 @@ class Homepage extends Component {
         }
         
 
-export default Homepage;
+export default Allcountries;

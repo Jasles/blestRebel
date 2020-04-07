@@ -7,6 +7,7 @@ import TeamMembers from './components/TeamMember';
 import Requests from './components/Requests';
 import Homepage from './components/Homepage';
 import Comment from './components/Comment';
+import Allcountries from './components/Allcountries';
 
 import './App.css';
 import Logo from './heart_home.jpg';
@@ -30,6 +31,7 @@ class App extends Component {
                     <Route exact path="/teammember" component={TeamMembers}/>
                     <Route exact path="/requests" component={Requests}/>
                     <Route exact path="/comment" component={Comment}/>
+                    <Route exact path="/allcountries" component={Allcountries}/>
                   </Switch>
               </div>
           </Router>
