@@ -5,7 +5,7 @@ import Requests from './Requests';
 import '../App.css';
 import axios from 'axios';
 import Global from './Global';
-import Allcounties from './Allcountries';
+
 
 
 class Homepage extends Component {
@@ -43,7 +43,7 @@ class Homepage extends Component {
                     : null
                 }
   
-                    <div><Link to ="/allcountries">All Countries</Link></div> 
+                    
                     <div><Link to ="/comment">Comments</Link></div> 
                     <div><Link to="/teammember">Team Members</Link></div>
                     <div><Link to="/requests">Requests</Link></div>

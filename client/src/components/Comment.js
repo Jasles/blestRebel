@@ -42,8 +42,8 @@ class Comment extends Component {
             <div>
                 <h5> {this.state.allcomment}</h5>
                  <form onSubmit={ this.submitCreateForm }>
-                            <input type="text" name="name" value ={this.state.name} onChange={ this.changeInput }/>
-                            <input type="text" name="comment" value= {this.state.comment.comment} onChange={ this.changeInput }/>
+                           <p>Name</p> <input type="text" name="name" value ={this.state.name} onChange={ this.changeInput }className="box"/>
+                            <p>Comment</p><input type="text" name="comment" value= {this.state.comment.comment} onChange={ this.changeInput }className="largebox"/>
                             <input type="submit" value="Create"/>
                           </form>
                 
