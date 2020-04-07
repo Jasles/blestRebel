@@ -8,7 +8,7 @@ class Comment extends Component {
             name: '',
             comment: '',
         },
-        allcomments:[],
+       
     }
       
     submitCreateForm = (event) => {
@@ -27,7 +27,7 @@ class Comment extends Component {
         const commentId = this.props.match.params.commentId;
         axios.get('/api/v1/comment/').then((response) => {
             this.setState({
-                allcomment: response.data,
+        
                  })
             })
         }
@@ -40,7 +40,7 @@ class Comment extends Component {
         return (
             
             <div>
-                <h5> {this.state.allcomment}</h5>
+               
                  <form onSubmit={ this.submitCreateForm }>
                            <p>Name</p> <input type="text" name="name" value ={this.state.name} onChange={ this.changeInput }className="box"/>
                             <p>Comment</p><input type="text" name="comment" value= {this.state.comment.comment} onChange={ this.changeInput }className="largebox"/>
