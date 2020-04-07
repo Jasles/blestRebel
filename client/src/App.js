@@ -10,7 +10,7 @@ import Comment from './components/Comment';
 
 
 import './App.css';
-import Logo from './heart_home.jpg';
+import Logo from './maskedheart.jpg';
 
 class App extends Component {
   render() {
