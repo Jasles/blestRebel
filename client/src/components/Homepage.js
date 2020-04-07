@@ -43,7 +43,7 @@ class Homepage extends Component {
                     : null
                 }
   
-                    <section className = "navbar" >
+                    <section className = "navbar1" >
                     <div><Link to ="https://blestrebel.wixsite.com/mysite" className = "links" >Shop </Link>  </div> 
                     <div><Link to ="/comment" className = "links" >Comments </Link>  </div> 
                     <div><Link to="/teammember" className = "links">Team Members</Link></div>
