@@ -34,8 +34,9 @@ class TeamMembers extends Component {
                 <h1>All Team Members</h1>
                 {this.state.teammember.map(teammember => (
                     <div key={teammember.id}>
-                        <Link to={`/teammember/${teammember.id}`} >{teammember.name} <img src={teammember.photo_url}/> {teammember.role}</Link>
-                    
+                      <div>  {teammember.name} </div> 
+                      <div>{teammember.role} </div>
+                      
                     </div>
                 ))}
             </div>
