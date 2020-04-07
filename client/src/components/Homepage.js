@@ -36,7 +36,7 @@ class Homepage extends Component {
                 return (
                 <div>
                           
-                <h1>Global Recovered</h1>
+                <h1>Total Global Recovered </h1>
              
                 { this.state.global
                     ? <Global global={ this.state.global }/>
