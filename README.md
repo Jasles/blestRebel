@@ -6,7 +6,7 @@ Trello
 
 ![WIREFRAME](wireframe.png)
 
-![ERG](ERG2.PNG)
+![ERG](ERG2.png)
 
 HEROKU
 [https://blestrebel.herokuapp.com/]
