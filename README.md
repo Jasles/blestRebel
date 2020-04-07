@@ -5,10 +5,10 @@ Trello
 
 
 Wireframe
-[ https://www.lucidchart.com/invitations/accept/7ad1e81e-5038-452d-a1f9-c57dc42ee8fc]
+[https://www.lucidchart.com/invitations/accept/7e6cd386-fd16-43b8-86f7-4fc6fc901731]
 
 ERG
-[https://www.lucidchart.com/invitations/accept/097fd0b6-8f13-4cd1-b22f-a0cfad9d6f33]
+[https://www.lucidchart.com/invitations/accept/9aeae569-9679-4598-a4e8-818b13cd2ee3]
 
 HEROKU
 [https://blestrebel.herokuapp.com/]
