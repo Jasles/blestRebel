@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Requests, TeamMember
+from .models import Requests, TeamMember, Comment
 
 
 class TeamMemberSerializer(serializers.ModelSerializer):
@@ -17,4 +17,3 @@ class CommentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Comment
         fields = ('id', 'name', 'comment')
-        

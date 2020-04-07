@@ -20,9 +20,9 @@ class Requests(models.Model):
     def __str__(self):
         return self.name
 
-class Comment (models.Model):
+class Comment(models.Model):
     name = models.CharField(max_length=255)
-    comment= models.CharFeild(max_length=200)
-
-      def __str__(self):
+    comment = models.CharField(max_length=400)
+    
+    def __str__(self):
         return self.name
