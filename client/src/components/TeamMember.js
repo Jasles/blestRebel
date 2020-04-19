@@ -32,6 +32,11 @@ class TeamMembers extends Component {
         else return (
             <div>
                 <h1>All Team Members</h1>
+                <p>BLEStREBEL is a Non-Profit Art Philanthopy Project.
+                      <div>We support those that have been affected by tradjadey, BLEStREBEL is funded by our creative Art Shop. </div> 
+                      <div>Please Support our project by purchasing ART Merch and sharing LOVE with the world! </div></p>
+                      
+                     
                 {this.state.teammember.map(teammember => (
                     <div key={teammember.id}>
                       <div>  {teammember.name} </div> 

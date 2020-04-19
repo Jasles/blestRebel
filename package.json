@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "expo": "^37.0.7",
     "react-router-dom": "^5.1.2",
     "styled-components": "^5.0.1"
   }

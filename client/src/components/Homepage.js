@@ -7,6 +7,8 @@ import axios from 'axios';
 import Global from './Global';
 
 
+import Logo from './maskedheart.jpg';
+
 
 class Homepage extends Component {
     state = {
@@ -36,19 +38,24 @@ class Homepage extends Component {
                 return (
                 <div>
                           
-                <h1>Total Global Recovered </h1>
-             
+                <h1 className="homehead">Give the Gift of LOVE</h1>
+                <p className="Blackyellow"> BLEStREBEL </p>
+                <p className="Blackyellow2"> BLEStREBEL </p>
+                    <p className="hometext"> <img src={Logo} className="logo"/><div className="h"> <span>BLEStREBEL </span>
+                    is a Non-Profit organization
+                              created to serve the world with love. We assist those affected
+                              by tragedies. All of our efforts are supported by the Art Brand BLEStREBEL. <button className="shop">SHOP</button> </div>
+                    </p>
+                <p className="homeinfohead"> "Blest be the Rebels that RISE UP in the name of Love"</p>
+                <p className= "homeheadline"> We hope to inspire a selfless world, <div>where people do whats right despite what is popular.</div></p>
+               <p className= "parahome">  </p>
+                          
                 { this.state.global
                     ? <Global global={ this.state.global }/>
                     : null
                 }
   
-                    <section className = "navbar1" >
-                    <div><Link to ="https://blestrebel.wixsite.com/mysite" className = "links" >Shop </Link>  </div> 
-                    <div><Link to ="/comment" className = "links" >Comments </Link>  </div> 
-                    <div><Link to="/teammember" className = "links">Team Members</Link></div>
-                    <div><Link to="/requests" className = "links" >Requests</Link></div>
-                    </section>
+                    
                 </div>
               
                 )
